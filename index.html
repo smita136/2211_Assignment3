@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                background-color:#E7E9EB;
+            }
+            
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 70%;
+            }
+            
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+            
+            .container {
+                padding: 2px 16px;
+            }
+            
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+                margin-left: 0.6%;
+                margin-right: -9%;
+            }
+            
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1 style="font-weight:bold; font-family: algerian; text-decoration: underline; text-align: center;">BEAUTY OF GOA</h1>
+        <section>
+            <img src="bg.jpg" style="width:100%; height: 350px;">
+        </section>
+        <section class="row" style="margin-top:1%;">
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <img src="https://www.tourmyindia.com/socialimg/basilica-of-bom-jesus-goa.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Church</b></h4> 
+                        <p>Old Goa</p> 
+                    </div>
+                </div>
+            </div>  
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1314723038_20190822145625.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Calangute beach</b></h4> 
+                        <p>Calangute</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <img src="https://itsgoa.com/wp-content/uploads/2022/02/20220221_224216-1024x576.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Miramar</b></h4> 
+                        <p>Panaji</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <img src="https://www.inditales.com/wp-content/uploads/2014/04/shri-mangeshi-temple-ponda-goa.jpg" alt="Avatar" style="width:100%">
+                        <h4><b>Mangeshi Temple</b></h4> 
+                        <p>Mangeshi</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
